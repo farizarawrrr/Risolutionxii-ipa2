@@ -1,0 +1,44 @@
+:root {
+  --primary: #574434;
+  --bg: #252525;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border:none ;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #574434;
+    color: white;
+  
+}
+
+/* navbar */
+.Navbar {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  padding: 1,4rem 7%;
+  background-color: rgba(35,35,35,0.7);
+  border-bottom: 1px solid #3c3127;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.Navbar .Navbar-logo {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.Navbar .Navbar-logo .span {
+  color:#574434 ;
+  font-size: 1.8rem;
+  font-weight: 700;
+  
+}
